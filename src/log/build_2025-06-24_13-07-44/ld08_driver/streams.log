@@ -1,0 +1,64 @@
+[0.029s] Invoking command in '/home/dingo/turtlebot3_ws/src/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dingo/turtlebot3_ws/src/ld08_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dingo/turtlebot3_ws/src/install/ld08_driver
+[0.302s] -- The C compiler identification is GNU 13.3.0
+[0.568s] -- The CXX compiler identification is GNU 13.3.0
+[0.642s] -- Detecting C compiler ABI info
+[1.064s] -- Detecting C compiler ABI info - done
+[1.099s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.100s] -- Detecting C compile features
+[1.101s] -- Detecting C compile features - done
+[1.143s] -- Detecting CXX compiler ABI info
+[1.617s] -- Detecting CXX compiler ABI info - done
+[1.653s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.654s] -- Detecting CXX compile features
+[1.656s] -- Detecting CXX compile features - done
+[1.674s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.335s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.656s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.876s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.130s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.213s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.823s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.845s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.250s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.316s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.744s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[5.054s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system 
+[5.476s] -- Configuring done (5.4s)
+[5.551s] -- Generating done (0.0s)
+[5.567s] -- Build files have been written to: /home/dingo/turtlebot3_ws/src/build/ld08_driver
+[5.605s] Invoked command in '/home/dingo/turtlebot3_ws/src/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dingo/turtlebot3_ws/src/ld08_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dingo/turtlebot3_ws/src/install/ld08_driver
+[5.610s] Invoking command in '/home/dingo/turtlebot3_ws/src/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dingo/turtlebot3_ws/src/build/ld08_driver -- -j4 -l4
+[5.858s] [ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o[0m
+[5.860s] [ 33%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o[0m
+[5.862s] [ 50%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o[0m
+[5.864s] [ 66%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o[0m
+[10.112s] [ 83%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/transform.cpp.o[0m
+[31.836s] [100%] [32m[1mLinking CXX executable ld08_driver[0m
+[32.899s] [100%] Built target ld08_driver
+[32.948s] Invoked command in '/home/dingo/turtlebot3_ws/src/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dingo/turtlebot3_ws/src/build/ld08_driver -- -j4 -l4
+[32.953s] Invoking command in '/home/dingo/turtlebot3_ws/src/build/ld08_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dingo/turtlebot3_ws/src/build/ld08_driver
+[32.987s] -- Install configuration: ""
+[32.988s] -- Execute custom install script
+[32.991s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py
+[33.032s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/lib/ld08_driver/ld08_driver
+[33.073s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver
+[33.114s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver
+[33.156s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh
+[33.196s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv
+[33.237s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/environment/path.sh
+[33.278s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/environment/path.dsv
+[33.319s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/local_setup.bash
+[33.359s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/local_setup.sh
+[33.400s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/local_setup.zsh
+[33.442s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/local_setup.dsv
+[33.482s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/package.dsv
+[33.523s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver
+[33.565s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.606s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.647s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake
+[33.687s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake
+[33.728s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/ld08_driver/share/ld08_driver/package.xml
+[33.776s] Invoked command in '/home/dingo/turtlebot3_ws/src/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dingo/turtlebot3_ws/src/build/ld08_driver

@@ -1,0 +1,52 @@
+[0.099s] Invoking command in '/home/dingo/turtlebot3_ws/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/dingo/turtlebot3_ws/src/install/turtlebot3_node
+[1.415s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.751s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.858s] -- Found dynamixel_sdk: 3.8.3 (/opt/ros/jazzy/share/dynamixel_sdk/cmake)
+[1.870s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.117s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.186s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.734s] -- Found message_filters: 4.11.6 (/opt/ros/jazzy/share/message_filters/cmake)
+[3.258s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.284s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.820s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.290s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[4.435s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.583s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[4.702s] -- Found tf2: 0.36.11 (/opt/ros/jazzy/share/tf2/cmake)
+[4.732s] -- Found tf2_ros: 0.36.11 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[5.440s] -- Found turtlebot3_msgs: 2.4.0 (/opt/ros/jazzy/share/turtlebot3_msgs/cmake)
+[6.190s] -- Configuring done (5.8s)
+[6.393s] -- Generating done (0.1s)
+[6.447s] -- Build files have been written to: /home/dingo/turtlebot3_ws/src/build/turtlebot3_node
+[6.496s] Invoked command in '/home/dingo/turtlebot3_ws/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/dingo/turtlebot3_ws/src/install/turtlebot3_node
+[6.504s] Invoking command in '/home/dingo/turtlebot3_ws/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dingo/turtlebot3_ws/src/build/turtlebot3_node -- -j4 -l4
+[7.405s] [ 85%] Built target turtlebot3_node_lib
+[7.662s] [100%] Built target turtlebot3_ros
+[7.749s] Invoked command in '/home/dingo/turtlebot3_ws/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dingo/turtlebot3_ws/src/build/turtlebot3_node -- -j4 -l4
+[7.757s] Invoking command in '/home/dingo/turtlebot3_ws/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dingo/turtlebot3_ws/src/build/turtlebot3_node
+[7.810s] -- Install configuration: ""
+[7.819s] -- Execute custom install script
+[7.826s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[7.833s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[7.835s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[7.842s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[7.849s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[7.853s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[7.859s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[7.865s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[7.871s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[7.876s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[7.882s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[7.887s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[7.890s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[7.898s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[7.904s] -- Symlinking: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[7.972s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[7.976s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.982s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.985s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[7.988s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[7.997s] -- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[8.008s] Invoked command in '/home/dingo/turtlebot3_ws/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dingo/turtlebot3_ws/src/build/turtlebot3_node

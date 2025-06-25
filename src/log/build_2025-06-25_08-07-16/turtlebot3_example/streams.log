@@ -1,0 +1,81 @@
+[7.518s] Invoking command in '/home/dingo/turtlebot3_ws/src/build/turtlebot3_example': PYTHONPATH=/home/dingo/turtlebot3_ws/src/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build
+[9.560s] running develop
+[10.857s] Removing /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3-example.egg-link (link to .)
+[11.028s] Invoked command in '/home/dingo/turtlebot3_ws/src/build/turtlebot3_example' returned '0': PYTHONPATH=/home/dingo/turtlebot3_ws/src/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build
+[11.035s] Invoking command in '/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_example': PYTHONPATH=/home/dingo/turtlebot3_ws/src/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_example build --build-base /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build install --record /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/install.log --single-version-externally-managed install_data --force
+[12.229s] running egg_info
+[12.316s] writing ../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[12.319s] writing dependency_links to ../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[12.321s] writing entry points to ../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[12.322s] writing requirements to ../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[12.322s] writing top-level names to ../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[12.500s] reading manifest file '../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[12.506s] writing manifest file '../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[12.507s] running build
+[12.507s] running build_py
+[12.512s] creating /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build
+[12.512s] creating /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib
+[12.513s] creating /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example
+[12.513s] copying turtlebot3_example/__init__.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example
+[12.520s] creating /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[12.520s] copying turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[12.523s] copying turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[12.524s] creating /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[12.525s] copying turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[12.526s] copying turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[12.526s] creating /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[12.527s] copying turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[12.528s] copying turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[12.528s] creating /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[12.528s] copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[12.529s] copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[12.529s] copying turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[12.530s] creating /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[12.531s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[12.531s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[12.532s] running install
+[12.559s] running install_lib
+[12.644s] creating /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example
+[12.645s] creating /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[12.646s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[12.647s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[12.648s] creating /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_relative_move
+[12.649s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_relative_move
+[12.650s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_relative_move
+[12.651s] creating /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[12.652s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[12.653s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[12.654s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example
+[12.655s] creating /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[12.656s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[12.657s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[12.659s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[12.660s] creating /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[12.662s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[12.662s] copying /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[12.664s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py to turtlebot3_interactive_marker.cpython-312.pyc
+[12.671s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker/__init__.py to __init__.cpython-312.pyc
+[12.674s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py to turtlebot3_relative_move.cpython-312.pyc
+[12.680s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_relative_move/__init__.py to __init__.cpython-312.pyc
+[12.681s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py to turtlebot3_absolute_move.cpython-312.pyc
+[12.687s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_absolute_move/__init__.py to __init__.cpython-312.pyc
+[12.689s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/__init__.py to __init__.cpython-312.pyc
+[12.690s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-312.pyc
+[12.694s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-312.pyc
+[12.704s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol/__init__.py to __init__.cpython-312.pyc
+[12.705s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-312.pyc
+[12.706s] byte-compiling /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-312.pyc
+[12.708s] running install_data
+[12.709s] copying resource/turtlebot3_example -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/share/ament_index/resource_index/packages
+[12.709s] copying package.xml -> /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/share/turtlebot3_example
+[12.711s] running install_egg_info
+[12.830s] Copying ../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example-2.3.1-py3.12.egg-info
+[12.838s] running install_scripts
+[13.547s] Installing turtlebot3_absolute_move script to /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[13.548s] Installing turtlebot3_interactive_marker script to /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[13.550s] Installing turtlebot3_obstacle_detection script to /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[13.554s] Installing turtlebot3_patrol_client script to /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[13.555s] Installing turtlebot3_patrol_server script to /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[13.556s] Installing turtlebot3_relative_move script to /home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[13.559s] writing list of installed files to '/home/dingo/turtlebot3_ws/src/build/turtlebot3_example/install.log'
+[13.698s] Invoked command in '/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_example' returned '0': PYTHONPATH=/home/dingo/turtlebot3_ws/src/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dingo/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_example build --build-base /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/build install --record /home/dingo/turtlebot3_ws/src/build/turtlebot3_example/install.log --single-version-externally-managed install_data --force

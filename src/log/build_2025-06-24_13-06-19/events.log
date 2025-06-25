@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.001556] (ld08_driver) JobQueued: {'identifier': 'ld08_driver', 'dependencies': OrderedDict()}
+[0.001690] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.001762] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict()}
+[0.001853] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict()}
+[0.001924] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.001987] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict({'turtlebot3_description': '/home/dingo/turtlebot3_ws/src/install/turtlebot3_description', 'turtlebot3_node': '/home/dingo/turtlebot3_ws/src/install/turtlebot3_node'})}
+[0.002069] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict({'turtlebot3_description': '/home/dingo/turtlebot3_ws/src/install/turtlebot3_description', 'turtlebot3_example': '/home/dingo/turtlebot3_ws/src/install/turtlebot3_example', 'turtlebot3_node': '/home/dingo/turtlebot3_ws/src/install/turtlebot3_node', 'turtlebot3_teleop': '/home/dingo/turtlebot3_ws/src/install/turtlebot3_teleop', 'turtlebot3_bringup': '/home/dingo/turtlebot3_ws/src/install/turtlebot3_bringup'})}
+[0.002188] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.035559] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[0.037821] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'build'}
+[0.039717] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dingo/turtlebot3_ws/src/build/turtlebot3_description', '--', '-j4', '-l4'], 'cwd': '/home/dingo/turtlebot3_ws/src/build/turtlebot3_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dingo', 'SSH_CLIENT': '192.168.1.208 50136 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_APT_SOURCE_VERSION': '1.1.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/dingo', 'OLDPWD': '/home/dingo/turtlebot3_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/dingo/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dingo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'tmux-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dingo/turtlebot3_ws/src/build/turtlebot3_description', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.1.208 50136 192.168.1.213 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy'}), 'shell': False}
+[0.099240] (-) TimerEvent: {}
+[0.199971] (-) TimerEvent: {}
+[0.221073] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[0.222801] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'install'}
+[0.260862] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dingo/turtlebot3_ws/src/build/turtlebot3_description'], 'cwd': '/home/dingo/turtlebot3_ws/src/build/turtlebot3_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dingo', 'SSH_CLIENT': '192.168.1.208 50136 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_APT_SOURCE_VERSION': '1.1.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/dingo', 'OLDPWD': '/home/dingo/turtlebot3_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/dingo/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dingo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'tmux-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dingo/turtlebot3_ws/src/build/turtlebot3_description', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.1.208 50136 192.168.1.213 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy'}), 'shell': False}
+[0.297155] (turtlebot3_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.298925] (turtlebot3_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.300079] (-) TimerEvent: {}
+[0.302134] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl\n'}
+[0.302973] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl\n'}
+[0.303941] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl\n'}
+[0.304905] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae\n'}
+[0.305729] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg\n'}
+[0.306613] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl\n'}
+[0.307491] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae\n'}
+[0.308367] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg\n'}
+[0.309242] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl\n'}
+[0.310114] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl\n'}
+[0.311498] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz\n'}
+[0.313066] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf\n'}
+[0.313847] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf\n'}
+[0.314655] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf\n'}
+[0.315484] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf\n'}
+[0.316891] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description\n'}
+[0.318167] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description\n'}
+[0.319230] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh\n'}
+[0.320398] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv\n'}
+[0.321465] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh\n'}
+[0.322613] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv\n'}
+[0.328958] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash\n'}
+[0.330089] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh\n'}
+[0.331213] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh\n'}
+[0.332316] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv\n'}
+[0.333004] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/package.dsv\n'}
+[0.375927] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description\n'}
+[0.376914] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake\n'}
+[0.377777] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake\n'}
+[0.378802] (turtlebot3_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dingo/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/package.xml\n'}
+[0.385426] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[0.401060] (-) TimerEvent: {}
+[0.452330] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 0}
+[0.455664] (turtlebot3_node) JobStarted: {'identifier': 'turtlebot3_node'}
+[0.478897] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'cmake'}
+[0.483423] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dingo/turtlebot3_ws/src/install/turtlebot3_node'], 'cwd': '/home/dingo/turtlebot3_ws/src/build/turtlebot3_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dingo', 'SSH_CLIENT': '192.168.1.208 50136 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_APT_SOURCE_VERSION': '1.1.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/dingo', 'OLDPWD': '/home/dingo/turtlebot3_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/dingo/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dingo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'tmux-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dingo/turtlebot3_ws/src/build/turtlebot3_node', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.1.208 50136 192.168.1.213 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy'}), 'shell': False}
+[0.501290] (-) TimerEvent: {}
+[0.537834] (turtlebot3_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.601444] (-) TimerEvent: {}
+[0.702032] (-) TimerEvent: {}
+[0.802554] (-) TimerEvent: {}
+[0.903149] (-) TimerEvent: {}
+[1.003774] (-) TimerEvent: {}
+[1.104402] (-) TimerEvent: {}
+[1.204942] (-) TimerEvent: {}
+[1.305492] (-) TimerEvent: {}
+[1.406148] (-) TimerEvent: {}
+[1.468196] (turtlebot3_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.506322] (-) TimerEvent: {}
+[1.513383] (turtlebot3_node) StdoutLine: {'line': b'-- Found dynamixel_sdk: 3.8.3 (/opt/ros/jazzy/share/dynamixel_sdk/cmake)\n'}
+[1.534029] (turtlebot3_node) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.606498] (-) TimerEvent: {}
+[1.707122] (-) TimerEvent: {}
+[1.772107] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.807287] (-) TimerEvent: {}
+[1.851149] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.907469] (-) TimerEvent: {}
+[1.937952] (turtlebot3_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.007639] (-) TimerEvent: {}
+[2.031646] (turtlebot3_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.107859] (-) TimerEvent: {}
+[2.208436] (-) TimerEvent: {}
+[2.236542] (turtlebot3_node) StdoutLine: {'line': b'-- Found message_filters: 4.11.6 (/opt/ros/jazzy/share/message_filters/cmake)\n'}
+[2.308598] (-) TimerEvent: {}
+[2.409213] (-) TimerEvent: {}
+[2.509841] (-) TimerEvent: {}
+[2.553054] (turtlebot3_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.571610] (turtlebot3_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.609964] (-) TimerEvent: {}
+[2.710544] (-) TimerEvent: {}
+[2.811198] (-) TimerEvent: {}
+[2.911846] (-) TimerEvent: {}
+[2.947701] (turtlebot3_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.009948] (turtlebot3_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.011928] (-) TimerEvent: {}
+[3.092856] (turtlebot3_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.112121] (-) TimerEvent: {}
+[3.212717] (-) TimerEvent: {}
+[3.313355] (-) TimerEvent: {}
+[3.392998] (turtlebot3_node) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[3.413518] (-) TimerEvent: {}
+[3.498587] (turtlebot3_node) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[3.513688] (-) TimerEvent: {}
+[3.590962] (turtlebot3_node) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[3.613887] (-) TimerEvent: {}
+[3.662025] (turtlebot3_node) StdoutLine: {'line': b'-- Found tf2: 0.36.11 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[3.688290] (turtlebot3_node) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.11 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[3.714062] (-) TimerEvent: {}
+[3.814637] (-) TimerEvent: {}
+[3.915246] (-) TimerEvent: {}
+[4.015900] (-) TimerEvent: {}
+[4.116526] (-) TimerEvent: {}
+[4.217165] (-) TimerEvent: {}
+[4.245017] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (find_package):\n'}
+[4.245697] (turtlebot3_node) StderrLine: {'line': b'  By not providing "Findturtlebot3_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.246187] (turtlebot3_node) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.246538] (turtlebot3_node) StderrLine: {'line': b'  "turtlebot3_msgs", but CMake did not find one.\n'}
+[4.246911] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[4.247263] (turtlebot3_node) StderrLine: {'line': b'  Could not find a package configuration file provided by "turtlebot3_msgs"\n'}
+[4.247569] (turtlebot3_node) StderrLine: {'line': b'  with any of the following names:\n'}
+[4.247890] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[4.248194] (turtlebot3_node) StderrLine: {'line': b'    turtlebot3_msgsConfig.cmake\n'}
+[4.248480] (turtlebot3_node) StderrLine: {'line': b'    turtlebot3_msgs-config.cmake\n'}
+[4.248835] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[4.249267] (turtlebot3_node) StderrLine: {'line': b'  Add the installation prefix of "turtlebot3_msgs" to CMAKE_PREFIX_PATH or\n'}
+[4.249672] (turtlebot3_node) StderrLine: {'line': b'  set "turtlebot3_msgs_DIR" to a directory containing one of the above files.\n'}
+[4.250140] (turtlebot3_node) StderrLine: {'line': b'  If "turtlebot3_msgs" provides a separate development package or SDK, be\n'}
+[4.250564] (turtlebot3_node) StderrLine: {'line': b'  sure it has been installed.\n'}
+[4.251415] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[4.252270] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[4.252662] (turtlebot3_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.275909] (turtlebot3_node) CommandEnded: {'returncode': 1}
+[4.317351] (-) TimerEvent: {}
+[4.346697] (turtlebot3_node) JobEnded: {'identifier': 'turtlebot3_node', 'rc': 1}
+[4.357894] (ld08_driver) JobSkipped: {'identifier': 'ld08_driver'}
+[4.358227] (turtlebot3_example) JobSkipped: {'identifier': 'turtlebot3_example'}
+[4.358306] (turtlebot3_teleop) JobSkipped: {'identifier': 'turtlebot3_teleop'}
+[4.358369] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[4.358432] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[4.358495] (-) EventReactorShutdown: {}
