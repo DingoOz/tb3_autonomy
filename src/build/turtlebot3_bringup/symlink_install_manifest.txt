@@ -2,12 +2,14 @@
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/dingo.robot.launch.py
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py
+/home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/slam.launch.py
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/burger.yaml
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle.yaml
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle_pi.yaml
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/jazzy/burger.yaml
+/home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/mapper_params_online_async.yaml
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml
 /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules
