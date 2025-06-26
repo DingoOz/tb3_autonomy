@@ -1,0 +1,18 @@
+[5.848s] Invoking command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_teleop': PYTHONPATH=/home/dingo/tb3_autonomy/src/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dingo/tb3_autonomy/src/build/turtlebot3_teleop/build --no-deps symlink_data
+[7.828s] running develop
+[9.167s] running egg_info
+[9.281s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[9.285s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[9.291s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[9.295s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[9.299s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[9.550s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[9.556s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[9.690s] running build_ext
+[9.698s] Creating /home/dingo/tb3_autonomy/src/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3-teleop.egg-link (link to .)
+[9.714s] Installing teleop_joy_stamped script to /home/dingo/tb3_autonomy/src/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[9.719s] Installing teleop_keyboard script to /home/dingo/tb3_autonomy/src/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[9.728s] 
+[9.734s] Installed /home/dingo/tb3_autonomy/src/build/turtlebot3_teleop
+[9.738s] running symlink_data
+[9.948s] Invoked command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/dingo/tb3_autonomy/src/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dingo/tb3_autonomy/src/build/turtlebot3_teleop/build --no-deps symlink_data

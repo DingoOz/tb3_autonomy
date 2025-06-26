@@ -1,0 +1,36 @@
+[0.124s] Invoking command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop:/home/dingo/tb3_autonomy/src/install/turtlebot3_example:/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy /usr/bin/cmake --build /home/dingo/tb3_autonomy/src/build/turtlebot3_node -- -j4 -l4
+[1.228s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[59.439s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[77.860s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[96.404s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[147.917s] [ 35%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[153.986s] [ 85%] Built target turtlebot3_node_lib
+[154.092s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[170.694s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[177.583s] [100%] Built target turtlebot3_ros
+[177.637s] Invoked command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop:/home/dingo/tb3_autonomy/src/install/turtlebot3_example:/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy /usr/bin/cmake --build /home/dingo/tb3_autonomy/src/build/turtlebot3_node -- -j4 -l4
+[177.643s] Invoking command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop:/home/dingo/tb3_autonomy/src/install/turtlebot3_example:/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy /usr/bin/cmake --install /home/dingo/tb3_autonomy/src/build/turtlebot3_node
+[177.679s] -- Install configuration: ""
+[177.682s] -- Execute custom install script
+[177.686s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[177.730s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[177.774s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[177.819s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[177.862s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[177.908s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[177.952s] -- Up-to-date symlink: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[177.954s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[177.999s] -- Up-to-date symlink: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[178.000s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[178.044s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[178.088s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[178.133s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[178.176s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[178.219s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[178.264s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[178.308s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[178.352s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[178.395s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[178.439s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[178.482s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[178.533s] Invoked command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop:/home/dingo/tb3_autonomy/src/install/turtlebot3_example:/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy /usr/bin/cmake --install /home/dingo/tb3_autonomy/src/build/turtlebot3_node

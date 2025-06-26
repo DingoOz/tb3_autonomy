@@ -1,1 +1,1 @@
-/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
+/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

@@ -1,0 +1,22 @@
+[5.861s] Invoking command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_example': PYTHONPATH=/home/dingo/tb3_autonomy/src/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dingo/tb3_autonomy/src/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dingo/tb3_autonomy/src/build/turtlebot3_example/build --no-deps symlink_data
+[7.858s] running develop
+[9.207s] running egg_info
+[9.326s] writing turtlebot3_example.egg-info/PKG-INFO
+[9.327s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[9.334s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[9.337s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[9.339s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[9.590s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[9.598s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[9.734s] running build_ext
+[9.738s] Creating /home/dingo/tb3_autonomy/src/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3-example.egg-link (link to .)
+[9.776s] Installing turtlebot3_absolute_move script to /home/dingo/tb3_autonomy/src/install/turtlebot3_example/lib/turtlebot3_example
+[9.780s] Installing turtlebot3_interactive_marker script to /home/dingo/tb3_autonomy/src/install/turtlebot3_example/lib/turtlebot3_example
+[9.785s] Installing turtlebot3_obstacle_detection script to /home/dingo/tb3_autonomy/src/install/turtlebot3_example/lib/turtlebot3_example
+[9.789s] Installing turtlebot3_patrol_client script to /home/dingo/tb3_autonomy/src/install/turtlebot3_example/lib/turtlebot3_example
+[9.794s] Installing turtlebot3_patrol_server script to /home/dingo/tb3_autonomy/src/install/turtlebot3_example/lib/turtlebot3_example
+[9.799s] Installing turtlebot3_relative_move script to /home/dingo/tb3_autonomy/src/install/turtlebot3_example/lib/turtlebot3_example
+[9.804s] 
+[9.810s] Installed /home/dingo/tb3_autonomy/src/build/turtlebot3_example
+[9.815s] running symlink_data
+[10.037s] Invoked command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_example' returned '0': PYTHONPATH=/home/dingo/tb3_autonomy/src/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dingo/tb3_autonomy/src/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dingo/tb3_autonomy/src/build/turtlebot3_example/build --no-deps symlink_data

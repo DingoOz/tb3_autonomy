@@ -1,2 +1,3 @@
 [console_scripts]
+teleop_joy_stamped = turtlebot3_teleop.teleop_joy_stamped:main
 teleop_keyboard = turtlebot3_teleop.script.teleop_keyboard:main
