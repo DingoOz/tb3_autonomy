@@ -1,0 +1,55 @@
+[0.046s] Invoking command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=/home/dingo/tb3_autonomy/src/install/turtlebot3_node:/home/dingo/tb3_autonomy/src/install/turtlebot3_description:/home/dingo/tb3_autonomy/src/install/turtlebot3:/home/dingo/tb3_autonomy/src/install/turtlebot3_bringup:/home/dingo/tb3_autonomy/src/install/ld08_driver:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop:/home/dingo/tb3_autonomy/src/install/turtlebot3_example:/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy /usr/bin/cmake /home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dingo/tb3_autonomy/src/install/turtlebot3_bringup
+[0.764s] -- The C compiler identification is GNU 13.3.0
+[1.051s] -- The CXX compiler identification is GNU 13.3.0
+[1.141s] -- Detecting C compiler ABI info
+[1.974s] -- Detecting C compiler ABI info - done
+[2.009s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.011s] -- Detecting C compile features
+[2.013s] -- Detecting C compile features - done
+[2.062s] -- Detecting CXX compiler ABI info
+[2.549s] -- Detecting CXX compiler ABI info - done
+[2.586s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.587s] -- Detecting CXX compile features
+[2.588s] -- Detecting CXX compile features - done
+[2.618s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.413s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.764s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.536s] -- Configuring done (4.5s)
+[4.560s] -- Generating done (0.0s)
+[4.568s] -- Build files have been written to: /home/dingo/tb3_autonomy/src/build/turtlebot3_bringup
+[4.587s] Invoked command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/dingo/tb3_autonomy/src/install/turtlebot3_node:/home/dingo/tb3_autonomy/src/install/turtlebot3_description:/home/dingo/tb3_autonomy/src/install/turtlebot3:/home/dingo/tb3_autonomy/src/install/turtlebot3_bringup:/home/dingo/tb3_autonomy/src/install/ld08_driver:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop:/home/dingo/tb3_autonomy/src/install/turtlebot3_example:/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy /usr/bin/cmake /home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dingo/tb3_autonomy/src/install/turtlebot3_bringup
+[4.592s] Invoking command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=/home/dingo/tb3_autonomy/src/install/turtlebot3_node:/home/dingo/tb3_autonomy/src/install/turtlebot3_description:/home/dingo/tb3_autonomy/src/install/turtlebot3:/home/dingo/tb3_autonomy/src/install/turtlebot3_bringup:/home/dingo/tb3_autonomy/src/install/ld08_driver:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop:/home/dingo/tb3_autonomy/src/install/turtlebot3_example:/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy /usr/bin/cmake --build /home/dingo/tb3_autonomy/src/build/turtlebot3_bringup -- -j4 -l4
+[4.773s] Invoked command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/dingo/tb3_autonomy/src/install/turtlebot3_node:/home/dingo/tb3_autonomy/src/install/turtlebot3_description:/home/dingo/tb3_autonomy/src/install/turtlebot3:/home/dingo/tb3_autonomy/src/install/turtlebot3_bringup:/home/dingo/tb3_autonomy/src/install/ld08_driver:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop:/home/dingo/tb3_autonomy/src/install/turtlebot3_example:/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy /usr/bin/cmake --build /home/dingo/tb3_autonomy/src/build/turtlebot3_bringup -- -j4 -l4
+[4.778s] Invoking command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=/home/dingo/tb3_autonomy/src/install/turtlebot3_node:/home/dingo/tb3_autonomy/src/install/turtlebot3_description:/home/dingo/tb3_autonomy/src/install/turtlebot3:/home/dingo/tb3_autonomy/src/install/turtlebot3_bringup:/home/dingo/tb3_autonomy/src/install/ld08_driver:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop:/home/dingo/tb3_autonomy/src/install/turtlebot3_example:/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy /usr/bin/cmake --install /home/dingo/tb3_autonomy/src/build/turtlebot3_bringup
+[4.813s] -- Install configuration: ""
+[4.815s] -- Execute custom install script
+[4.821s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/camera.launch.py
+[4.865s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/dingo.robot.launch.py
+[4.909s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py
+[4.952s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py
+[4.996s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
+[5.046s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml
+[5.091s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/burger.yaml
+[5.135s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle.yaml
+[5.179s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle_pi.yaml
+[5.223s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/jazzy/burger.yaml
+[5.268s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
+[5.312s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml
+[5.358s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules
+[5.402s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/script/create_udev_rules
+[5.445s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
+[5.490s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
+[5.536s] -- Up-to-date symlink: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh
+[5.538s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv
+[5.582s] -- Up-to-date symlink: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh
+[5.584s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv
+[5.628s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash
+[5.672s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh
+[5.716s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh
+[5.761s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv
+[5.804s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv
+[5.849s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup
+[5.894s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+[5.938s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+[5.982s] -- Symlinking: /home/dingo/tb3_autonomy/src/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml
+[6.033s] Invoked command in '/home/dingo/tb3_autonomy/src/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/dingo/tb3_autonomy/src/install/turtlebot3_node:/home/dingo/tb3_autonomy/src/install/turtlebot3_description:/home/dingo/tb3_autonomy/src/install/turtlebot3:/home/dingo/tb3_autonomy/src/install/turtlebot3_bringup:/home/dingo/tb3_autonomy/src/install/ld08_driver:/home/dingo/tb3_autonomy/src/install/turtlebot3_teleop:/home/dingo/tb3_autonomy/src/install/turtlebot3_example:/home/dingo/turtlebot3_ws/install/turtlebot3_description:/opt/ros/jazzy /usr/bin/cmake --install /home/dingo/tb3_autonomy/src/build/turtlebot3_bringup

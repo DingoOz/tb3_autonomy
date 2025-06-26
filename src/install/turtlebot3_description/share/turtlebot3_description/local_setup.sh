@@ -1,1 +1,1 @@
-/home/dingo/turtlebot3_ws/src/build/turtlebot3_description/ament_cmake_environment_hooks/local_setup.sh
+/home/dingo/tb3_autonomy/src/build/turtlebot3_description/ament_cmake_environment_hooks/local_setup.sh

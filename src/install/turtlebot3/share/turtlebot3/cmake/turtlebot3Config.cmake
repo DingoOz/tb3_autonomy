@@ -1,1 +1,1 @@
-/home/dingo/turtlebot3_ws/src/build/turtlebot3/ament_cmake_core/turtlebot3Config.cmake
+/home/dingo/tb3_autonomy/src/build/turtlebot3/ament_cmake_core/turtlebot3Config.cmake
