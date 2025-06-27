@@ -1,1 +1,1 @@
-/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_bringup/launch/camera.launch.py
+/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_bringup/launch/camera.launch.py

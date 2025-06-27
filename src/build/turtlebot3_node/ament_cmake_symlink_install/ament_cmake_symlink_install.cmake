@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/dingo/turtlebot3_ws/src/install/turtlebot3_node/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/dingo/tb3_autonomy/src/install/turtlebot3_node/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/dingo/turtlebot3_ws/src/install/turtlebot3_node/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/dingo/tb3_autonomy/src/install/turtlebot3_node/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/dingo/turtlebot3_ws/src/install/turtlebot3_node/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/dingo/tb3_autonomy/src/install/turtlebot3_node/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/dingo/turtlebot3_ws/src/install/turtlebot3_node/${destination}")
+      set(destination "/home/dingo/tb3_autonomy/src/install/turtlebot3_node/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,55 +311,55 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "param" "DESTINATION" "share/turtlebot3_node")
-ament_cmake_symlink_install_directory("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" DIRECTORY "param" "DESTINATION" "share/turtlebot3_node")
+ament_cmake_symlink_install_directory("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" DIRECTORY "param" "DESTINATION" "share/turtlebot3_node")
 
 # install("TARGETS" "turtlebot3_ros" "DESTINATION" "lib/turtlebot3_node")
-include("/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot3_node/environment")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot3_node/environment")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot3_node/environment")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot3_node/environment")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot3_node/environment")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot3_node/environment")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot3_node/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot3_node/environment")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot3_node/environment")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot3_node/environment")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot3_node/environment")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot3_node/environment")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot3_node/environment")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot3_node/environment")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/turtlebot3_node")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/turtlebot3_node")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/turtlebot3_node")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/turtlebot3_node")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/turtlebot3_node")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/turtlebot3_node")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/turtlebot3_node")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/turtlebot3_node")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/turtlebot3_node")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/turtlebot3_node")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/turtlebot3_node")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/turtlebot3_node")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/turtlebot3_node")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/turtlebot3_node")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/turtlebot3_node")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/turtlebot3_node")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/turtlebot3_node")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/turtlebot3_node")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/turtlebot3_node")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/turtlebot3_node")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot3_node" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_core/turtlebot3_nodeConfig.cmake" "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_core/turtlebot3_nodeConfig-version.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_core/turtlebot3_nodeConfig.cmake" "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/ament_cmake_core/turtlebot3_nodeConfig-version.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
+# install(FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_core/turtlebot3_nodeConfig.cmake" "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_core/turtlebot3_nodeConfig-version.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_core/turtlebot3_nodeConfig.cmake" "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/ament_cmake_core/turtlebot3_nodeConfig-version.cmake" "DESTINATION" "share/turtlebot3_node/cmake")
 
-# install(FILES "/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node/package.xml" "DESTINATION" "share/turtlebot3_node")
-ament_cmake_symlink_install_files("/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/turtlebot3_ws/src/turtlebot3/turtlebot3_node/package.xml" "DESTINATION" "share/turtlebot3_node")
+# install(FILES "/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node/package.xml" "DESTINATION" "share/turtlebot3_node")
+ament_cmake_symlink_install_files("/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node" FILES "/home/dingo/tb3_autonomy/src/turtlebot3/turtlebot3_node/package.xml" "DESTINATION" "share/turtlebot3_node")

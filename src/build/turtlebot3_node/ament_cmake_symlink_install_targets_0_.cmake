@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dingo/turtlebot3_ws/src/build/turtlebot3_node/turtlebot3_ros" "TARGETS" "turtlebot3_ros" "DESTINATION" "lib/turtlebot3_node")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dingo/tb3_autonomy/src/build/turtlebot3_node/turtlebot3_ros" "TARGETS" "turtlebot3_ros" "DESTINATION" "lib/turtlebot3_node")
