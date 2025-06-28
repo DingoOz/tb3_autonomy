@@ -36,7 +36,7 @@ def generate_launch_description():
             'axis_angular.yaw': 0,   # Left stick horizontal  
             'scale_linear.x': 0.7,   # Max linear speed
             'scale_angular.yaw': 1.0, # Max angular speed
-            'enable_button': 5,      # Right bumper (RB)
+            'enable_button': 7,      # Right bumper (RB)
         }],
         remappings=[
             ('cmd_vel', '/cmd_vel'),

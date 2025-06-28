@@ -55,15 +55,15 @@ def generate_launch_description():
         output='screen'
     )
 
-    # Configure slam_toolbox after 3 seconds
+    # Configure slam_toolbox after 8 seconds (wait for lidar to initialize)
     configure_slam_toolbox = ExecuteProcess(
-        cmd=['bash', '-c', 'sleep 3 && ros2 service call /slam_toolbox/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"'],
+        cmd=['bash', '-c', 'sleep 8 && ros2 service call /slam_toolbox/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"'],
         output='screen'
     )
 
-    # Activate slam_toolbox after 4 seconds
+    # Activate slam_toolbox after 10 seconds
     activate_slam_toolbox = ExecuteProcess(
-        cmd=['bash', '-c', 'sleep 4 && ros2 service call /slam_toolbox/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"'],
+        cmd=['bash', '-c', 'sleep 10 && ros2 service call /slam_toolbox/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"'],
         output='screen'
     )
 
