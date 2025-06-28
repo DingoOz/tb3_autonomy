@@ -1,0 +1,66 @@
+slam_toolbox:
+  ros__parameters:
+
+    # Plugin params - Enhanced for PC performance
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: HuberLoss
+
+    # ROS Parameters
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_footprint
+    scan_topic: /scan
+    use_map_saver: true
+    mode: mapping
+
+    debug_logging: false
+    throttle_scans: 1
+    transform_publish_period: 0.02
+    map_update_interval: 2.0  # More frequent updates for PC
+    resolution: 0.025  # Higher resolution for better mapping
+    max_laser_range: 12.0
+    minimum_time_interval: 0.2  # Faster processing
+    transform_timeout: 0.2
+    tf_buffer_duration: 30.
+    stack_size_to_use: 80000000  # Larger stack for PC
+    enable_interactive_mode: true
+
+    # General Parameters - Enhanced for loop closing
+    use_scan_matching: true
+    use_scan_barycenter: true
+    minimum_travel_distance: 0.05  # More sensitive for better mapping
+    minimum_travel_heading: 0.05
+    scan_buffer_size: 20  # Larger buffer for PC
+    scan_buffer_maximum_scan_distance: 15.0
+    link_match_minimum_response_fine: 0.05
+    link_scan_maximum_distance: 2.0
+    loop_search_maximum_distance: 5.0  # Increased search distance
+    do_loop_closing: true  # ENABLED for PC mapping
+    loop_match_minimum_chain_size: 8  # More sensitive loop detection
+    loop_match_maximum_variance_coarse: 2.5
+    loop_match_minimum_response_coarse: 0.3
+    loop_match_minimum_response_fine: 0.4
+
+    # Correlation Parameters - Enhanced for accuracy
+    correlation_search_space_dimension: 0.8  # Larger search space
+    correlation_search_space_resolution: 0.005  # Finer resolution
+    correlation_search_space_smear_deviation: 0.05
+
+    # Loop Closure Parameters - Optimized for PC
+    loop_search_space_dimension: 12.0  # Much larger for better loop detection
+    loop_search_space_resolution: 0.025  # Finer resolution
+    loop_search_space_smear_deviation: 0.02
+
+    # Scan Matcher Parameters - Enhanced precision
+    distance_variance_penalty: 0.3
+    angle_variance_penalty: 0.8
+    fine_search_angle_offset: 0.00175  # Finer angle search
+    coarse_search_angle_offset: 0.175
+    coarse_angle_resolution: 0.0175
+    minimum_angle_penalty: 0.9
+    minimum_distance_penalty: 0.4
+    use_response_expansion: true
