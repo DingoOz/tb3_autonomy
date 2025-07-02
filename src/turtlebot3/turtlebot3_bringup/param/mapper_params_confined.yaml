@@ -1,0 +1,67 @@
+slam_toolbox:
+  ros__parameters:
+
+    # Plugin params
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: None
+
+    # ROS Parameters
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_footprint
+    scan_topic: /scan
+    use_map_saver: true
+    mode: mapping
+
+    debug_logging: false
+    throttle_scans: 1
+    transform_publish_period: 0.02
+    map_update_interval: 1.0  # More frequent updates for tight spaces (was 5.0)
+    resolution: 0.05  # Keep original resolution to avoid processing issues
+    max_laser_range: 10.0  # Moderate reduction for confined spaces (was 12.0)
+    minimum_time_interval: 0.5  # Keep original timing (was 0.5)
+    transform_timeout: 0.2
+    tf_buffer_duration: 30.
+    stack_size_to_use: 40000000
+    enable_interactive_mode: true
+
+    # General Parameters - Tuned for tight environments
+    use_scan_matching: true
+    use_scan_barycenter: true
+    minimum_travel_distance: 0.05  # More sensitive to small movements (was 0.1)
+    minimum_travel_heading: 0.05  # More sensitive to small rotations (was 0.1)
+    scan_buffer_size: 15  # Larger buffer for better matching (was 10)
+    scan_buffer_maximum_scan_distance: 6.0  # Reduced for confined spaces (was 10.0)
+    link_match_minimum_response_fine: 0.05  # Keep original threshold to ensure matching works
+    link_scan_maximum_distance: 1.0  # Shorter linking distance (was 1.5)
+    loop_search_maximum_distance: 2.0  # Shorter loop search for small areas (was 3.0)
+    do_loop_closing: false  # Disable loop closing for confined spaces to avoid issues
+    loop_match_minimum_chain_size: 10  # Keep original chain size
+    loop_match_maximum_variance_coarse: 3.0  # Keep original variance
+    loop_match_minimum_response_coarse: 0.35  # Keep original threshold
+    loop_match_minimum_response_fine: 0.45  # Keep original threshold
+
+    # Correlation Parameters - Enhanced for confined spaces
+    correlation_search_space_dimension: 0.5  # Keep original search space
+    correlation_search_space_resolution: 0.01  # Keep original resolution
+    correlation_search_space_smear_deviation: 0.1  # Keep original smearing
+
+    # Loop Closure Parameters - Optimized for tight environments
+    loop_search_space_dimension: 8.0  # Keep original loop search space
+    loop_search_space_resolution: 0.05  # Keep original resolution
+    loop_search_space_smear_deviation: 0.03  # Keep original smearing
+
+    # Scan Matcher Parameters - Keep original values for stability
+    distance_variance_penalty: 0.5  # Keep original penalty
+    angle_variance_penalty: 1.0  # Keep original penalty
+
+    fine_search_angle_offset: 0.00349
+    coarse_search_angle_offset: 0.349  # Keep original search offset
+    coarse_angle_resolution: 0.0349  # Keep original resolution
+    minimum_angle_penalty: 0.9  # Keep original penalty
+    minimum_distance_penalty: 0.5  # Keep original penalty
+    use_response_expansion: true

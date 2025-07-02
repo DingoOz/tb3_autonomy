@@ -30,14 +30,17 @@ def generate_launch_description():
     
     declare_slam_params_file_cmd = DeclareLaunchArgument(
         'slam_params_file',
-        default_value=os.path.join(pkg_dir, 'param', 'mapper_params_pc_optimized.yaml'),
+        default_value=os.path.join(pkg_dir, 'param', 'mapper_params_online_async.yaml'),
         description='Full path to the ROS2 parameters file to use for the slam_toolbox node'
     )
 
-    # Include robot launch (robot hardware + lidar)
-    robot_launch = IncludeLaunchDescription(
+    # PC SLAM - assumes robot is running remotely
+    # Include robot state publisher for URDF/static transforms (no hardware needed)
+    
+    # Include robot state publisher to load burger URDF and provide static transforms
+    robot_state_publisher_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(pkg_dir, 'launch', 'dingo.robot.launch.py')
+            os.path.join(pkg_dir, 'launch', 'turtlebot3_state_publisher.launch.py')
         ),
         launch_arguments={
             'use_sim_time': use_sim_time
@@ -77,6 +80,21 @@ def generate_launch_description():
         output='screen'
     )
 
+    # Launch RViz2 with SLAM configuration
+    rviz_config_dir = os.path.join(
+        get_package_share_directory('turtlebot3_description'),
+        'rviz',
+        'model.rviz'
+    )
+
+    start_rviz2 = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        arguments=['-d', rviz_config_dir],
+        output='screen'
+    )
+
     # Create the launch description and populate
     ld = LaunchDescription()
 
@@ -85,10 +103,11 @@ def generate_launch_description():
     ld.add_action(declare_slam_params_file_cmd)
 
     # Add the actions to launch
-    ld.add_action(robot_launch)
+    ld.add_action(robot_state_publisher_launch)
     ld.add_action(static_transform_laser)
     ld.add_action(start_async_slam_toolbox_node)
     ld.add_action(configure_slam_toolbox)
     ld.add_action(activate_slam_toolbox)
+    ld.add_action(start_rviz2)
 
     return ld
