@@ -11,15 +11,5 @@ setup.py
 resource/turtlebot3_teleop
 turtlebot3_teleop/__init__.py
 turtlebot3_teleop/teleop_joy_stamped.py
-<<<<<<< HEAD
-=======
-turtlebot3_teleop.egg-info/PKG-INFO
-turtlebot3_teleop.egg-info/SOURCES.txt
-turtlebot3_teleop.egg-info/dependency_links.txt
-turtlebot3_teleop.egg-info/entry_points.txt
-turtlebot3_teleop.egg-info/requires.txt
-turtlebot3_teleop.egg-info/top_level.txt
-turtlebot3_teleop.egg-info/zip-safe
->>>>>>> 5da9a12 (corrected xbox controller enable and set mapping params to pi4)
 turtlebot3_teleop/script/__init__.py
 turtlebot3_teleop/script/teleop_keyboard.py

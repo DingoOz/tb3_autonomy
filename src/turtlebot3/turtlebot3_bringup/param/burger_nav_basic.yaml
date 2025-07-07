@@ -17,21 +17,21 @@ amcl:
     laser_min_range: -1.0
     laser_model_type: "likelihood_field"
     max_beams: 60
-    max_particles: 2000
-    min_particles: 500
+    max_particles: 1000
+    min_particles: 250
     odom_frame_id: "odom"
     pf_err: 0.05
     pf_z: 0.99
     recovery_alpha_fast: 0.0
     recovery_alpha_slow: 0.0
-    resample_interval: 1
+    resample_interval: 2
     robot_model_type: "nav2_amcl::DifferentialMotionModel"
     save_pose_rate: 0.5
     sigma_hit: 0.2
     tf_broadcast: true
     transform_tolerance: 0.5
-    update_min_a: 0.2
-    update_min_d: 0.25
+    update_min_a: 0.3
+    update_min_d: 0.5
     z_hit: 0.5
     z_max: 0.05
     z_rand: 0.5
@@ -104,7 +104,7 @@ docking_server:
 
 controller_server:
   ros__parameters:
-    controller_frequency: 20.0
+    controller_frequency: 10.0
     min_x_velocity_threshold: 0.001
     min_y_velocity_threshold: 0.001
     min_theta_velocity_threshold: 0.001
@@ -119,7 +119,7 @@ controller_server:
     goal_checker:
       stateful: true
       plugin: "nav2_controller::SimpleGoalChecker"
-      xy_goal_tolerance: 0.03
+      xy_goal_tolerance: 0.08
       yaw_goal_tolerance: 0.15
     FollowPath:
       plugin: "dwb_core::DWBLocalPlanner"
@@ -140,14 +140,14 @@ controller_server:
       decel_lim_x: -2.5
       decel_lim_y: 0.0
       decel_lim_theta: -3.2
-      vx_samples: 30
+      vx_samples: 15
       vy_samples: 0
-      vtheta_samples: 60
+      vtheta_samples: 30
       sim_time: 1.0
       linear_granularity: 0.03
       angular_granularity: 0.025
-      transform_tolerance: 0.2
-      xy_goal_tolerance: 0.05
+      transform_tolerance: 0.5
+      xy_goal_tolerance: 0.08
       trans_stopped_velocity: 0.25
       short_circuit_trajectory_evaluation: false
       stateful: true
@@ -169,15 +169,15 @@ controller_server:
 local_costmap:
   local_costmap:
     ros__parameters:
-      update_frequency: 1.0
-      publish_frequency: 2.0
+      update_frequency: 3.0
+      publish_frequency: 1.0
       global_frame: odom
       robot_base_frame: base_link
       rolling_window: true
       width: 3
       height: 3
-      resolution: 0.1
-      robot_radius: 0.05
+      resolution: 0.05
+      robot_radius: 0.12
       plugins: ["obstacle_layer", "voxel_layer", "inflation_layer"]
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
@@ -220,12 +220,12 @@ local_costmap:
 global_costmap:
   global_costmap:
     ros__parameters:
-      update_frequency: 1.0
-      publish_frequency: 1.0
+      update_frequency: 0.5
+      publish_frequency: 0.5
       global_frame: map
       robot_base_frame: base_link
       transform_tolerance: 0.5
-      robot_radius: 0.1
+      robot_radius: 0.12
       resolution: 0.05
       track_unknown_space: true
       #plugins: ["static_layer", "obstacle_layer", "voxel_layer", "inflation_layer"]
@@ -270,7 +270,7 @@ global_costmap:
         transform_tolerance: 0.1
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        inflation_radius: 0.1
+        inflation_radius: 0.3
         cost_scaling_factor: 5.0
       always_send_full_costmap: true
 
@@ -291,8 +291,8 @@ planner_server:
     planner_plugins: ["GridBased"]
     GridBased:
       plugin: "nav2_navfn_planner::NavfnPlanner"
-      tolerance: 0.5
-      use_astar: false
+      tolerance: 0.2
+      use_astar: true
       allow_unknown: true
 
 behavior_server:
@@ -341,7 +341,7 @@ collision_monitor:
     cmd_vel_out_topic: "cmd_vel"
     state_topic: "collision_monitor_state"
     transform_tolerance: 0.5
-    source_timeout: 5.0
+    source_timeout: 2.0
     base_shift_correction: true
     stop_pub_timeout: 2.0
     enable_stamped_cmd_vel: true
@@ -418,14 +418,14 @@ collision_monitor:
         theta_max: 1.0
     observation_sources: ["scan"]
     scan:
-      source_timeout: 0.2
+      source_timeout: 0.1
       type: "scan"
       topic: "/scan"
       enabled: true
 
 velocity_smoother:
   ros__parameters:
-    smoothing_frequency: 20.0
+    smoothing_frequency: 10.0
     scale_velocities: false
     feedback: "OPEN_LOOP"
     max_velocity: [0.5, 0.0, 2.5]
