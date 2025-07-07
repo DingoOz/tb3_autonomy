@@ -1,0 +1,44 @@
+[INFO] [launch]: All log files can be found below /home/dingo/.ros/log/2025-06-30-22-08-48-936545-ThinkPad-X1-Yoga-102086
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [static_transform_publisher-1]: process started with pid [102101]
+[INFO] [async_slam_toolbox_node-2]: process started with pid [102102]
+[INFO] [bash-3]: process started with pid [102103]
+[INFO] [bash-4]: process started with pid [102104]
+[INFO] [rviz2-5]: process started with pid [102105]
+[static_transform_publisher-1] [WARN] [1751285329.006600131] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-1] [INFO] [1751285329.028860675] [static_transform_publisher_laser]: Spinning until stopped - publishing transform
+[static_transform_publisher-1] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-1] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-1] from 'base_scan' to 'laser'
+[async_slam_toolbox_node-2] [INFO] [1751285329.053176836] [slam_toolbox]: Node using stack size 40000000
+[rviz2-5] [INFO] [1751285329.283352806] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-5] [INFO] [1751285329.283475715] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-5] [INFO] [1751285329.298008930] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-5] [ERROR] [1751285330.325720964] [rviz2]: Lookup would require extrapolation into the future.  Requested time 1751285330.392685 but the latest data is at time 1751285330.312073, when looking up transform from frame [laser] to frame [odom]
+[rviz2-5] [ERROR] [1751285330.848427048] [rviz2]: Lookup would require extrapolation into the future.  Requested time 1751285330.905001 but the latest data is at time 1751285330.852708, when looking up transform from frame [laser] to frame [odom]
+[rviz2-5] [INFO] [1751285331.007486305] [rviz2]: Message Filter dropping message: frame 'laser' at time 1751285330.841 for reason 'unknown'
+[bash-3] requester: making request: lifecycle_msgs.srv.ChangeState_Request(transition=lifecycle_msgs.msg.Transition(id=1, label=''))
+[bash-3] 
+[async_slam_toolbox_node-2] [INFO] [1751285337.451796165] [slam_toolbox]: Configuring
+[async_slam_toolbox_node-2] [INFO] [1751285337.467696999] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-2] [INFO] [1751285337.468080528] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[bash-3] response:
+[bash-3] lifecycle_msgs.srv.ChangeState_Response(success=True)
+[bash-3] 
+[INFO] [bash-3]: process has finished cleanly [pid 102103]
+[bash-4] requester: making request: lifecycle_msgs.srv.ChangeState_Request(transition=lifecycle_msgs.msg.Transition(id=3, label=''))
+[bash-4] 
+[async_slam_toolbox_node-2] [INFO] [1751285339.437247146] [slam_toolbox]: Activating
+[bash-4] response:
+[bash-4] lifecycle_msgs.srv.ChangeState_Response(success=True)
+[bash-4] 
+[INFO] [bash-4]: process has finished cleanly [pid 102104]
+[async_slam_toolbox_node-2] [INFO] [1751285339.730016253] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1751285339.545 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-2] [INFO] [1751285339.858394579] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1751285339.737 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-2] [INFO] [1751285339.986461610] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1751285339.865 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-2] [INFO] [1751285340.115583620] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1751285339.993 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-2] [INFO] [1751285340.242321307] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1751285340.121 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-2] [INFO] [1751285340.435926965] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1751285340.249 for reason 'discarding message because the queue is full'
+[async_slam_toolbox_node-2] Registering sensor: [Custom Described Lidar]
+[async_slam_toolbox_node-2] terminate called after throwing an instance of 'karto::Exception'
+[ERROR] [async_slam_toolbox_node-2]: process has died [pid 102102, exit code -6, cmd '/opt/ros/jazzy/lib/slam_toolbox/async_slam_toolbox_node --ros-args -r __node:=slam_toolbox --params-file /home/dingo/Programming/tb3_autonomy/install/turtlebot3_bringup/share/turtlebot3_bringup/param/mapper_params_online_async.yaml --params-file /tmp/launch_params_y4ybp871'].

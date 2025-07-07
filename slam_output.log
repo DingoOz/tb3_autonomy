@@ -1,0 +1,37 @@
+[INFO] [launch]: All log files can be found below /home/dingo/.ros/log/2025-06-30-22-05-38-645436-ThinkPad-X1-Yoga-100866
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [static_transform_publisher-1]: process started with pid [100882]
+[INFO] [async_slam_toolbox_node-2]: process started with pid [100883]
+[INFO] [bash-3]: process started with pid [100884]
+[INFO] [bash-4]: process started with pid [100885]
+[INFO] [rviz2-5]: process started with pid [100886]
+[static_transform_publisher-1] [WARN] [1751285138.719522204] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-1] [INFO] [1751285138.735458266] [static_transform_publisher_laser]: Spinning until stopped - publishing transform
+[static_transform_publisher-1] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-1] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-1] from 'base_scan' to 'laser'
+[async_slam_toolbox_node-2] [INFO] [1751285138.755637523] [slam_toolbox]: Node using stack size 40000000
+[rviz2-5] [INFO] [1751285139.026592063] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-5] [INFO] [1751285139.026728302] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-5] [INFO] [1751285139.045305048] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-5] [ERROR] [1751285140.203950234] [rviz2]: Lookup would require extrapolation into the future.  Requested time 1751285140.248452 but the latest data is at time 1751285140.206554, when looking up transform from frame [laser] to frame [odom]
+[bash-3] requester: making request: lifecycle_msgs.srv.ChangeState_Request(transition=lifecycle_msgs.msg.Transition(id=1, label=''))
+[bash-3] 
+[async_slam_toolbox_node-2] [INFO] [1751285147.520023718] [slam_toolbox]: Configuring
+[async_slam_toolbox_node-2] [INFO] [1751285147.535730868] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-2] [INFO] [1751285147.536027630] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[bash-3] response:
+[bash-3] lifecycle_msgs.srv.ChangeState_Response(success=True)
+[bash-3] 
+[INFO] [bash-3]: process has finished cleanly [pid 100884]
+[bash-4] waiting for service to become available...
+[bash-4] requester: making request: lifecycle_msgs.srv.ChangeState_Request(transition=lifecycle_msgs.msg.Transition(id=3, label=''))
+[bash-4] 
+[async_slam_toolbox_node-2] [INFO] [1751285150.340772384] [slam_toolbox]: Activating
+[bash-4] response:
+[bash-4] lifecycle_msgs.srv.ChangeState_Response(success=True)
+[bash-4] 
+[async_slam_toolbox_node-2] Registering sensor: [Custom Described Lidar]
+[INFO] [bash-4]: process has finished cleanly [pid 100885]
+[ERROR] [async_slam_toolbox_node-2]: process has died [pid 100883, exit code -11, cmd '/opt/ros/jazzy/lib/slam_toolbox/async_slam_toolbox_node --ros-args -r __node:=slam_toolbox --params-file src/turtlebot3/turtlebot3_bringup/param/mapper_params_confined_minimal.yaml --params-file /tmp/launch_params_x34dqv12'].
+[INFO] [rviz2-5]: process has finished cleanly [pid 100886]
